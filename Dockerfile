@@ -1,7 +1,5 @@
 FROM ruby:2.4-alpine3.6
 
-LABEL maintainer="Johannes Schickling <schickling.j@gmail.com>"
-
 RUN set -xe \
     && apk add --no-cache \
         libstdc++ \
